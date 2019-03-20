@@ -1,0 +1,26 @@
+使用框架都是较新的版本 ：
+Spring 4.0.6 RELEASE+Spring MVC 4.0.6 RELEASE+MyBatis 3.2.7
+
+一，步骤概要：
+1，手动创建数据库表，创建一个TB_USER表
+2，创建核心配置文件
+3，创建POJO实体文件
+4，创建DAO接口以及接口实现
+5，创建测试类；
+6，创建控制层
+
+有了整体结构之后我们一步一步整合来实现，整合步骤：
+（1）、配置前端控制器,web.xml配置
+（2）、创建处理映射器 springmvc-server.xml 配置
+（3）、创建控制层
+（4）、业务逻辑层
+（5）、dao层
+（6）、sqlmapper 映射文件
+（7）、spring+mybatis 整合配置文件即spring.xml 配置文件
+
+v1
+功能：
+基本的crud操作功能
+	java版本
+	网页版
+
